@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#home{
+    height: 80vh;
+    }
+:root{
+    --color1: #fef090;
+    --color2:#2e83bc;
+    --color3:  #fbcbca;
+    --color4: #fefffe;
+    --color5: #bcdbe7;
+}
+.navbar-toggler-icon
+{
+    color: white;
+}
+
+.navbar{
+    background-color: var(--color2);
+    
+}
+.navbar-brand, .nav-link{
+    color: var(--color4);
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.nav-link:hover, .nav-link:active{
+    color: var(--color1);
+}
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(sex.png) left fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Services Section */
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px 0;
+  }
+  
